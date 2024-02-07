@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tushar Saurabh</title>
+    <style>
+     body {
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 1rem;
+            background-color: #3498db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            max-width: 800px; /* Set a maximum width for better responsiveness */
+            margin: 0 auto;
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle-img {
+            border-radius: 50%;
+            overflow: hidden;
+            width:400px; /* Adjust the size as needed */
+            height: 400px; /* Adjust the size as needed */
+            object-fit: cover; /* To center the image within the container */
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0 1rem;
+        }
+
+        .content {
+            text-align: left;
+        }
+
+        .social img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+  </head>
+  <body>
+	<div class="portfolio">
+        <div class="left">
+            <div class="circle-img">
+                <img src="tushar.png" alt="Fancy Image">
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>Tushar Saurabh</h1>
+                <h2>Site Reliability Engineer</h2>
+                
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/tushar-saurabh-49ba8a63/" target="_blank">
+                        <img src="linkedin.png" alt="Linkedin" style="width: 50px;height: 50px;">
+                    </a>
+                </div>
+            </div>      
+        </div>
+    </div>
+  </body>
+</html>
